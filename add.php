@@ -14,7 +14,7 @@ include('header.php');
 include("connexion.php");
 
 if(isset($_POST["titre"])){
-    $titre = $_POST["titre"];
+    $titre = $_POST["titre"];git remote add origin https://github.com/Numazer/php_tp4.git
     $contenu = $_POST["contenu"];
     $date = $_POST["date"];
     $auteur = $_POST["auteur"];
